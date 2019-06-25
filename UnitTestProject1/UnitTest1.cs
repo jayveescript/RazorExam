@@ -17,7 +17,7 @@ namespace UnitTestProject1
         public void TestMethod1()
         {
             var homeController = new HomeController();
-            var result = homeController.Index() as ViewResult;
+            var result = homeController.Index("") as ViewResult;
             Assert.IsInstanceOfType(result.Model, typeof(TestModel));
         }
     }
