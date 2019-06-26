@@ -12,7 +12,7 @@ namespace WebApplication1.Controllers
         {
             return View(new TestModel()
             {
-                Number = Int32.TryParse(number, out int result) ? result : 0
+                Number = 12
             });
         }
     }
