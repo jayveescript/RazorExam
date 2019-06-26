@@ -10,8 +10,7 @@ namespace WebApplication1.Controllers
     {
         public ActionResult Index(string number)
         {
-            return View(new TestModel()
-            {
+            return View(new TestModel() {
                 Number = 12
             });
         }
